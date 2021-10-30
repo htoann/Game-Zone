@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default Home = () => {
+export default ReviewDetails = () => {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text>Review Details Screen</Text>
     </View>
   );
 };
