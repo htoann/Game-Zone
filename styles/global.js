@@ -3,15 +3,18 @@ import { StyleSheet } from "react-native";
 export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 30,
+    padding: 16,
   },
   titleText: {
-    fontSize: 25,
+    fontSize: 18,
     color: "#333",
-    textAlign: "center",
+    textAlign: "left",
+    marginVertical: 10,
+    fontWeight: "bold",
   },
   paragraph: {
-    marginVertical: 8,
+    marginVertical: 20,
     lineHeight: 20,
+    fontSize: 16,
   },
 });
