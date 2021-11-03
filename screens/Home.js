@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Button,
-  FlatList,
-  TouchableOpacity,
-} from "react-native";
+import { Text, View, FlatList, TouchableOpacity } from "react-native";
 import { globalStyles } from "./../styles/global";
 import { Data } from "./../data";
 
@@ -14,7 +7,7 @@ export default Home = ({ navigation }) => {
   const [reviews, setReviews] = useState(Data);
 
   const handlePress = (item) => {
-    navigation.navigate("ReviewDetails", item);
+    navigation.navigate("Review Details", item);
   };
 
   return (
