@@ -9,7 +9,14 @@ const RootDrawerNavigator = createDrawerNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <RootDrawerNavigator.Navigator>
+      <RootDrawerNavigator.Navigator
+        screenOptions={{
+          headerTitleAlign: "center",
+          headerStyle: {
+            backgroundColor: "coral",
+          },
+        }}
+      >
         <RootDrawerNavigator.Screen name="Home" component={HomeStack} />
         <RootDrawerNavigator.Screen name="About" component={AboutStack} />
       </RootDrawerNavigator.Navigator>
