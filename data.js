@@ -3,7 +3,7 @@ export const Data = [
     title:
       "Có thêm 24 tỷ USD trong 1 ngày, Elon Musk đang giàu gấp 3 lần Warren Buffett",
     rating: 5,
-    body: "Giá trị tài sản của Elon Musk đã tăng thêm 24 tỷ USD lên 335,1 tỷ USD sau khi chốt phiên giao dịch 1/11, khi cổ phiếu hãng xe điện...",
+    body: "Giá trị tài sản của Elon Musk đã tăng thêm 24 tỷ USD lên 335,1 tỷ USD sau khi chốt phiên giao dịch 1/11, khi cổ phiếu hãng xe điện",
     key: "1",
   },
   {
